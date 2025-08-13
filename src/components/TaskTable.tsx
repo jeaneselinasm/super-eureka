@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import { Box } from '@chakra-ui/react'
+import { useReactTable } from '@tanstack/react-table'
+import React from 'react'
 
-function TaskTable() {
-  
+
+const TaskTable = () => {
   return (
     <div>
-      This is TaskTable
+      
     </div>
   )
 }
